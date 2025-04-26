@@ -5,7 +5,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: Maven@3
+- task: Maven@4
   inputs:
     mavenPomFile: 'program2/pom.xml'   # <-- fixed here
     mavenOptions: '-Xmx3072m'
